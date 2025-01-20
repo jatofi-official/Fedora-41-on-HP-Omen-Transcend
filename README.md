@@ -35,7 +35,7 @@ Now you can test, if the patch works.
 ##Making the patch permanent
 1. Edit `/etc/grub.d/40_custom`. Add `acpi /dsdt.aml` to tail.
 
-2. If you've installed Fedora with the `noapic` parameter, you need to remove it from the grub config template. Open
+2. If you've installed Fedora with the `noapic` parameter, you need to remove it from the grub config template. Open /etc/default/grub and remove noapic from the parameters.
 
 ### What doesn't work?
 
