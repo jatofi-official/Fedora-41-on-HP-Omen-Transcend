@@ -32,7 +32,7 @@ Now you can test, if the patch works.
 
 3. Check if everything works. For me the super key didn't work, but it got fixed when I made the patch permanent
 
-##Making the patch permanent
+## Making the patch permanent
 1. Edit `/etc/grub.d/40_custom`. Add `acpi /dsdt.aml` to tail.
 
 2. If you've installed Fedora with the `noapic` parameter, you need to remove it from the grub config template. Open /etc/default/grub and remove noapic from the parameters.
